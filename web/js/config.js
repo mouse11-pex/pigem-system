@@ -7,8 +7,8 @@ var ROOT = window.ROOT || "";
 
 var CONFIG = {
   // Leave blank to use Demo Mode (browser storage). Configure locally to enable Supabase.
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://nphqfqjgqpyruyzxutfd.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5waHFmcWpncXB5cnV5enh1dGZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwOTA0MzcsImV4cCI6MjA2NDY2NjQzN30.snX-kA3rGKd-cff4e7c5efnG4VhDk30VJ-yhoAJ51tM",
 
   // MAJOR: Python FastAPI server (OpenCV, PaddleOCR, Ollama, Resend)
   API_URL: "http://127.0.0.1:8001",
